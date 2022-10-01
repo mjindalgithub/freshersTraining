@@ -1,0 +1,26 @@
+.inp-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0;
+}
+#inp-field {
+	background-color: bisque;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	height: 50px;
+	text-align: end;
+	padding: 0 20px;
+	font-weight: 500;
+	font-size: 20px;
+}
+/* #inp-field::-webkit-outer-spin-button,
+#inp-field::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+} */
+#inp-field:focus-visible {
+	outline: 4px solid rgb(235, 46, 46);
+}
