@@ -3,16 +3,22 @@ import "./Button.css"
 
 export default class Button extends Component {
   render() {
+    
     function buttonClick(e) {
+      
       const displayField = document.getElementById("display-field");
-      if(e.target.innerText === "clr"){
+      
+      if(e.target.innerText === "clr")
+      {
         displayField.value = "";
       }
-      else if (e.target.innerText !== "=") {
+      else if (e.target.innerText !== "=") 
+      {
         displayField.value += e.target.innerText;
       } 
       
-      else {
+      else 
+      {
         displayField.value = eval(displayField.value);
       }
   }
