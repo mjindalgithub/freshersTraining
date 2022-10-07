@@ -1,0 +1,20 @@
+.calculator {
+  margin: auto;
+  margin-top: 10%;
+  border: 2px solid black;
+  width: 500px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.calculator .heading{
+  text-align: center;
+  font-weight: bolder;
+}
+.nums{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nums button{
+  width: 23%;
+}

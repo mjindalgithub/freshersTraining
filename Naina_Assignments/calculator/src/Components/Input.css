@@ -1,0 +1,14 @@
+.input-div input{
+    width: 95.5%;
+    padding: 20px 10px;
+    outline: none;
+    font-size: 20px;
+    background-color: #000000;
+    margin-bottom: 10px;
+    color: white;
+}
+.input-div input:focus-visible{
+    border: none;
+    outline: none;
+    width: 95.5%;
+}
