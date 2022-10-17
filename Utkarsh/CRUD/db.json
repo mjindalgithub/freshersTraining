@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "email": "efcdsv",
+      "comment": "veverv",
+      "id": 1
+    },
+    {
+      "email": "edit 1",
+      "comment": "edit2",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
