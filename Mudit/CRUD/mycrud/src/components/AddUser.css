@@ -1,0 +1,156 @@
+.row{
+    text-align: center;
+}
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper{
+    width: 80rem;
+    height: 35rem;
+    background-color: #eee;
+    border-radius: 3rem;
+    box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+    position: relative;
+}
+
+.banner{
+    position: absolute;
+    top: 25%;
+    left: 1rem;
+    text-align: center;
+    color: #fff;
+    width: 30rem;
+    z-index: 100;
+}
+
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.banner p{
+    font-size: 1rem;
+}
+
+.green-bg{
+    width: 40%;
+    height: 100%;
+    /* background: linear-gradient(to right,#3ab19b,#4cbf91); */
+    background: linear-gradient(to right,#6e0eec,#e78b12);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 7%;
+    border-top-left-radius: 7%;
+}
+
+.green-bg button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15rem;
+    height: 3rem;
+    background-color: transparent;
+    border: .1rem solid #fff;
+    border-radius: 3rem;
+    letter-spacing: .1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.green-bg a{
+    margin: auto;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15rem;
+    height: 5rem;
+    background-color: transparent;
+    border: .1rem solid #fff;
+    border-radius: 3rem;
+    letter-spacing: .1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form{
+    width: 60rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 31.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 0;
+
+}
+
+.signup-form h1{
+    margin-right: 24rem;
+    font-size: 3rem;
+    color: #9c0cc0;
+ 
+}
+
+.social-media{
+    display: flex;
+}
+
+
+.signup-form p{
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-right: 24rem;
+}
+.signup-form h5{
+    margin-right:54rem;
+}
+
+.input-group input{
+    width: 35rem;
+    /* margin-left: 10rem; */
+    height: 5rem;
+    padding: 1rem 1rem 1rem 3rem;
+    margin-bottom: 2rem;
+    background-color: #ddd;
+    border: none;
+    border-radius: .5rem;
+}
+.input-group{
+    position: relative;
+}
+
+.input-group i{
+    position: absolute;
+    top: 28%;
+    left: 1rem;
+    font-size: 1.2rem;
+}
+
+.signup-form button{
+    width: 10rem;
+    /* background-color: #3aaf9f; */
+    background-color: #bb0c9e;
+    border: none;
+    border-radius: 2rem;
+    color: rgb(243, 235, 235);
+    padding: 1rem;
+    margin-top: 0rem;
+    cursor: pointer;
+    margin-right: 24rem;
+}
