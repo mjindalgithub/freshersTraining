@@ -1,0 +1,16 @@
+table {
+	width: 80%;
+}
+
+.tr-name,
+.tr-email {
+	width: 30%;
+}
+
+.tr-mobile {
+	width: 15%;
+}
+
+.tr-opn {
+	width: 20%;
+}
