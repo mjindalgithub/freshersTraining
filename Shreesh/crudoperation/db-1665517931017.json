@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "stuname": "Shreesh",
+      "email": "shreesh.bajpai@bhavnacorp.com"
+    },
+    {
+      "id": 2,
+      "stuname": "Sumit",
+      "email": "sumit.thapliyal@bhavnacorp.com"
+    },
+    {
+      "id": 3,
+      "stuname": "Sajal",
+      "email": "sajal.sharma@bhavnacorp.com"
+    }
+  ]
+}
