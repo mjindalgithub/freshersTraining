@@ -1,0 +1,67 @@
+#nav-main {
+	background-color: #232f3e;
+	max-width: 100vw;
+	display: flex;
+	padding: 0.7vw 0;
+	padding-top: 6vw;
+}
+.nav-links {
+	display: flex;
+	flex-wrap: nowrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	justify-content: space-around;
+	color: #ffffff;
+}
+.nav-links * {
+	padding: 0 0.5vw;
+	cursor: pointer;
+	font-size: 1.35rem;
+}
+.left-nav {
+	width: 75vw;
+}
+.right-nav {
+	width: 25vw;
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.3vw;
+}
+
+@media screen and (max-width: 1240px) {
+	.nav-new-releases {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.nav-prime {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.nav-books {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.nav-fashion {
+		display: none;
+	}
+	.nav-home {
+		display: none;
+	}
+	.left-nav {
+		width: 60vw;
+	}
+	.right-nav {
+		width: 40vw;
+	}
+	.nav-links * {
+		font-size: 1.35vw;
+	}
+}

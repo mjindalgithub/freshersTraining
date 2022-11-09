@@ -1,0 +1,8 @@
+.home-carousel {
+	height: 17vmax;
+	border: 3px solid yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5vw;
+}

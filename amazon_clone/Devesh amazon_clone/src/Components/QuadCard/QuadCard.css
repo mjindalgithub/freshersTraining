@@ -1,0 +1,84 @@
+.quad-card {
+	width: 22vw;
+	margin-top: 1.5vw;
+	background-color: #ffffff;
+}
+.quad-card.hidden {
+	display: none;
+}
+.quad-card-title {
+	width: 100%;
+	margin-top: 1vw;
+	height: 4.8em;
+}
+.quad-card-title h4 {
+	margin: 0 1vw;
+	text-overflow: ellipsis;
+	font-size: 2em;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.quad-card-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.quad-card-product {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 1vw 0;
+	width: 42%;
+}
+.quad-card-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5vw;
+	background-color: darkgray;
+	height: 10vw;
+	width: 100%;
+	cursor: pointer;
+}
+.quad-card-details {
+	font-size: 0.8vw;
+	cursor: pointer;
+	color: #0f1111;
+}
+.card-more-link {
+	font-size: 1vw;
+	font-weight: 500;
+	margin: 0 auto 1vw 1.1vw;
+	cursor: pointer;
+	color: #007185;
+}
+.card-more-link:hover {
+	text-decoration: underline;
+	color: #c7511f;
+}
+
+@media screen and (max-width: 1240px) {
+	.quad-card.hidden {
+		display: block;
+	}
+	.quad-card {
+		width: 30vw;
+	}
+	.quad-card-title {
+		height: 5em;
+	}
+	.quad-card-title h4 {
+		font-size: 2.2em;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.quad-card-title {
+		height: 5vw;
+	}
+	.quad-card-title h4 {
+		font-size: 2.15vw;
+	}
+}
