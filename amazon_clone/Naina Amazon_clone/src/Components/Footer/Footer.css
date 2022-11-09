@@ -1,0 +1,88 @@
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+.back-to-top {
+    padding: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+}
+.back-to-top a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1vw;
+}
+.footer-vertical-navlinks {
+    background-color: #232f3e;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2vw 0;
+    color: white;
+}
+.navColumn h3 {
+    font-size: 1.15vw;
+}
+.navColumn ul {
+    list-style: none;
+}
+.navColumn ul li {
+    margin: 1vw 0;
+}
+.navColumn ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.05vw;
+}
+
+.footer-bottom {
+    background-color: #232f3e;
+}
+.footer-bottom .footerLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 0;
+    color: #848688;
+}
+.footerLine h3 {
+    margin: 0 2vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+    border: 1px solid #848688;
+    padding: 0.5vw;
+}
+hr {
+    border-color: #848688;
+}
+.footerLine h3.brandName {
+    font-weight: 700;
+    font-size: 1.5vw;
+    border: none;
+    color: white;
+}
+.locations {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+    /* margin: 0 auto; */
+}
+.locations ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 72%;
+    flex-wrap: wrap;
+}
+.locations ul li {
+    margin: 0 0.7vw;
+}
+.locations ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.87vw;
+}

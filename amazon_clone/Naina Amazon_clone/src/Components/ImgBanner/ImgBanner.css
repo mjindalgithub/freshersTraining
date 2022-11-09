@@ -1,0 +1,10 @@
+.img-banner {
+    width: 100%;
+    background: linear-gradient(violet, rgb(223, 222, 222));
+    height: 35vw;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 3vw;
+    /* position: absolute; */
+    z-index: -2;
+}
