@@ -1,0 +1,16 @@
+.nav2{
+    background-color: #232f3e;
+    color: aliceblue;
+    height: 3vw;
+    /* padding-bottom: 20px; */
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav2 a{
+    font-weight: 600;
+    font-size: 0.8vw;
+}

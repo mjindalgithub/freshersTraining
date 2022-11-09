@@ -1,0 +1,39 @@
+
+.card-container1{
+    /* display: inline-block; */
+    min-width: 22%;
+    max-width: 22%;
+    margin-bottom: 1.5vw;
+    margin-left: 2vw;
+    border: 0ch;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 15vw;
+}
+
+
+.card-container1 h3{
+    font-size: 1.5vw;
+}
+.card-container1 p{
+    font-size: 1vw;
+}
+
+.image-container1 img{
+    overflow: hidden;
+    height: 2vw;
+}
+
+.card-content1{
+    margin: 1vw;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:1240px) {
+    div.card-container1{
+        max-width: 30%;
+        min-width: 30%;
+    }
+    .hidden{
+        display: none;
+    }
+  }
