@@ -1,0 +1,47 @@
+.deals-cards {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 2vw;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.deal-card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vw;
+}
+
+.deal-prod-image {
+    background-color: rgb(204, 204, 204);
+    height: 15vw;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+.deal-card p.discount {
+    color: #cc0c39;
+    font-size: 0.8vw;
+    font-weight: 700;
+    margin: 0.8vw 0;
+}
+.deal-card p.discount span {
+    background-color: #cc0c39;
+    color: white;
+    padding: 0.2vw;
+    font-size: 1vw;
+    margin-right: 0.4vw;
+    font-weight: 500;
+}
+.deal-card p.productName {
+    font-size: 1vw;
+    font-weight: 500;
+}
+.hiddenDetails {
+    display: none;
+    /* visibility: hidden; */
+}

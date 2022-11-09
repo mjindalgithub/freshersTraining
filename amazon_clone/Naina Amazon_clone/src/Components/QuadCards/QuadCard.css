@@ -1,0 +1,59 @@
+.quad-card-div {
+    margin: 1vw 0;
+    width: 22vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quad-card-div .card-title {
+    padding: 1vw;
+}
+.card-title h3 {
+    font-size: 1.5vw;
+}
+.quad-card-div .card-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-images .product-img {
+    height: 10vw;
+    background-color: rgb(125, 206, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+}
+.img-div {
+    width: 40%;
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+.img-div p {
+    font-size: 1vw;
+    padding-top: 0.5vw;
+}
+.hidden {
+    display: none;
+}
+
+.card-link {
+    margin: 1vw;
+}
+.card-link a {
+    font-size: 1.1vw;
+}
+.card-link a:hover {
+    color: rgb(235, 88, 30);
+}
+
+@media screen and (max-width: 1240px) {
+    .hidden {
+        display: block;
+    }
+    .quad-card-div {
+        width: 30vw;
+    }
+}
