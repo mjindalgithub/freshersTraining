@@ -1,0 +1,141 @@
+.navbar-belt {
+	/* height: 60px; */
+	background-color: #131921;
+	color: white;
+	/* padding: 0 12px; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	/* max-width: 100vw; */
+}
+/* .navbar-belt > div {
+	margin-right: 5px !important;
+	margin-left: 5px !important;
+} */
+#nav-brand {
+	/* padding: 0px 6px; */
+	/* margin: 0 3px; */
+	cursor: pointer;
+	padding: 0px 1.5vw;
+	border-radius: 2px;
+	/* margin: 0 3px; */
+}
+/*
+.bg-white-hover {
+	padding: 0px 6px;
+	border-radius: 2px;
+	margin: 0 3px;
+} .bg-white-hover:hover {
+	border: 1px solid white !important;
+	cursor: pointer;
+} */
+#nav-brand h2 {
+	margin: 0;
+	font-size: 2vw;
+	font-weight: 600;
+	/* letter-spacing: -2px; */
+}
+.nav-location {
+	/* padding-left: 10px; */
+	/* padding-right: 10px; */
+	/* margin: 0 3px; */
+	cursor: pointer;
+	/* padding: 0px 6px; */
+	border-radius: 2px;
+	/* margin: 0 3px; */
+}
+.nav-location * {
+	margin: 0;
+}
+.nav-top-text {
+	height: 100%;
+	font-size: 1vw;
+	margin: 0;
+}
+.nav-bottom-text {
+	font-size: 1.3vw;
+	margin: 0;
+}
+.nav-search-div {
+	display: flex;
+	justify-content: center;
+	height: 3vw;
+	width: 45%;
+	margin: 1vw 0;
+}
+
+#search-categories {
+	border-radius: 10% 0 0 10%;
+	background-color: #f3f3f3;
+	color: #55555f;
+	font-size: 1.2vw;
+	/* padding: 1%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5vw;
+	border: 1px solid #cdcdcd;
+}
+#nav-search-inp {
+	border: 0;
+	width: 80%;
+}
+#search-icon {
+	border-radius: 0 10% 10% 0;
+	background-color: #febd69;
+	width: 5vw;
+	/* min-height: inherit; */
+	color: #333333;
+	/* padding-top: 5px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 1vw;
+}
+#nav-country {
+	font-size: 1vw;
+	/* padding: 14px 8px; */
+	cursor: pointer;
+	/* padding: 0px 6px; */
+	border-radius: 2px;
+	/* margin: 0 3px; */
+}
+.nav-signin {
+	cursor: pointer;
+	/* padding: 0px 6px; */
+	border-radius: 2px;
+	/* margin: 0 3px; */
+}
+.nav-returns {
+	cursor: pointer;
+	/* padding: 0px 6px; */
+	border-radius: 2px;
+	/* margin: 0 3px; */
+}
+.nav-cart {
+	display: flex;
+	cursor: pointer;
+	/* padding: 0px 6px; */
+	border-radius: 2px;
+	margin: 0 1vw 0 0;
+}
+.nav-cart .cart-icon {
+	font-size: 1.3vw;
+}
+.nav-cart h4 {
+	margin: 0;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+	.navbar-belt {
+		padding: 0;
+		width: 100vw;
+	}
+	.nav-cart h4 {
+		display: none;
+	}
+}
