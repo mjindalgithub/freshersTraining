@@ -1,0 +1,12 @@
+.carousel-section{
+    background-image: linear-gradient(rgb(119, 233, 119),rgb(193, 238, 193));
+    height: 100%;
+    text-align: center;
+    padding: 8vw 1vw;
+}
+.offer{
+    margin-bottom: 8vw;
+}
+.desktop-cards{
+    display: flex;
+}

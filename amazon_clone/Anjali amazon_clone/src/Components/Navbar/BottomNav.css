@@ -1,0 +1,44 @@
+.bottomnav-section{
+    background-color: #232f3e;
+    display: flex;
+    height: 3.4vw;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+}
+.nav-headings{
+    display: flex;
+}
+.nav-headings h5{
+    margin: 1vw 0.8vw;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 745px){
+    .hidden-links{
+        display: none;
+    }
+    .nav-headings h5{
+        font-size: 0.7rem;
+    }   
+}
+@media screen and (max-width: 525px){
+    .hidden-links{
+        display: none;
+    }
+    .hidden-links1{
+        display: none;
+    }
+    .nav-headings h5{
+        font-size: 0.6rem;
+    }   
+}
+@media screen and (max-width: 500px){
+    .nav-headings h5{
+        font-size: 0.5rem;
+    } 
+}
+@media screen and (max-width: 380px){
+    .nav-headings h5{
+        font-size: 0.4rem;
+    } 
+}
