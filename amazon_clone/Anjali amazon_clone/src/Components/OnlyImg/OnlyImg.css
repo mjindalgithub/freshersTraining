@@ -1,0 +1,21 @@
+.onlyimg-section{
+    background-color: white;
+    margin: 1vw;
+}
+.onlyimg-section h5{
+    text-align: left;
+    font-size: 1.7vw;
+    padding: 1vw;
+}
+.onlyimg-col{
+    display: flex;
+    overflow: scroll;
+}
+.onlyimg-col p{
+    min-width: 14vw;
+    height: 12.5vw;
+    background-color: pink;
+    margin-left: 1vw;
+    margin-bottom: 1.7vw;
+    font-size: 1vw;
+}
