@@ -1,0 +1,19 @@
+.app-bg {
+	height: 100%;
+	background-image: linear-gradient(
+		180deg,
+		rgb(116, 146, 190),
+		rgba(116, 146, 190, 0.2)
+	);
+}
+.body-section {
+	margin: 3vw 2vw 0;
+}
+.cards-suggestion-section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.todays-deals-section {
+	background-color: white;
+}

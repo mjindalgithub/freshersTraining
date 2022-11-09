@@ -1,0 +1,16 @@
+.App {
+	text-align: center;
+	min-height: 100vh;
+	/* display: flex;
+	justify-content: center; */
+	/* align-items: center; */
+}
+
+button {
+	background-color: darkkhaki;
+	align-self: center;
+	border: 0;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}

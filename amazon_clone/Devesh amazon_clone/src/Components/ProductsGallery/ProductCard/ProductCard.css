@@ -1,0 +1,29 @@
+.deals-prod {
+	margin: 1vw;
+	min-width: 20%;
+	padding-bottom: 2vw;
+}
+.deals-prod-img {
+	height: 15vw;
+	background-color: darkgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5vw;
+}
+.deals-prod-offer {
+	margin-top: 1vw;
+	font-size: 1vw;
+	color: #cc0c39;
+	font-weight: 500;
+}
+.deal-offer-span {
+	background-color: #cc0c39;
+	font-size: 1vw;
+	color: white;
+	margin-right: 0.25vw;
+	padding: 0.35vw;
+}
+.hideOffer {
+	display: none;
+}
