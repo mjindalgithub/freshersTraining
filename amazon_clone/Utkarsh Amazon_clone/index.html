@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="Slider.css" />
+  <link rel="stylesheet" href="Product-Card.css" />
+  <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+  <!-- desktop header -->
+  <nav class="desktop_header">
+    <div class="left dflex">
+      <a href="#"><img src="pic/amazon.png" alt="logo" class="logo" /><span>.in</span></a>
+
+      <div class="item">
+        <p><i class="fa fa-map-marker me"></i>hello,</p>
+        <h5>enter your address</h5>
+      </div>
+    </div>
+
+    <div class="searchBox dflex">
+      <div class="box">
+        <div class="dflex">
+          <button type="submit" class="all">
+            All <i class="fa fa-sort-desc"></i>
+          </button>
+          <input type="text" />
+          <button type="submit" class="search">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="right dflex">
+      <div class="item">
+        <i class="fa fa-flag"></i><i class="fa fa-sort-desc"></i>
+      </div>
+      <div class="item">
+        <p>Hello,</p>
+        <h5>Account & Lists<i class="fa fa-sort-desc"></i></h5>
+      </div>
+      <div class="item">
+        <p>Returns</p>
+        <h5>& Order</h5>
+      </div>
+      <div class="item"><i class="fa fa-shopping-cart fa-2x"></i>Cart</div>
+    </div>
+  </nav>
+
+  <nav class="subnavigation desktop_header_after">
+    <ul class="submenu">
+      <a href="#"><i class="fa fa-bars"></i>
+        <li>All</li>
+      </a>
+      <a href="#">
+        <li>Sell</li>
+      </a>
+      <a href="#">
+        <li>Best Sellers</li>
+      </a>
+      <a href="#">
+        <li>Todays Deals <i class="fa fa-sort-desc"></i></li>
+      </a>
+      <a href="#">
+        <li>Mobile</li>
+      </a>
+      <a href="#">
+        <li>Customer Service</li>
+      </a>
+      <a href="#">
+        <li>Electonics</li>
+      </a>
+      <a href="#">
+        <li>Home And Kitchen</li>
+      </a>
+      <a href="#">
+        <li>Fashon</li>
+      </a>
+      <a href="#">
+        <li>Books</li>
+      </a>
+      <a href="#">
+        <li>Prime<i class="fa fa-sort-desc"></i></li>
+      </a>
+    </ul>
+    <ul>
+      <a href="#"><i class="fa fa-amazon bg"></i>
+        <li class="li">Shopping made easy|Download the app</li>
+      </a>
+    </ul>
+  </nav>
+
+  <nav class="mobile-header">
+    <div> 
+      <button class="openbtn" onclick="openNav()">☰</button>  
+      <div id="mySidebar" class="sidebar">
+        <div style="background-color: #232f3e;">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <div class="maccount">
+
+            <div id="" class="" style="color: white;">Sign in</div><i class="fa fa-user" style="color: black;" aria-hidden="true"></i>
+          </div>
+          <div class="Bamazon">
+            <span style="color:white;">Browse</span>
+            <h2 style="color: white;">Amazon</h2>
+          </div>
+        </div>
+
+        <div>
+          <a href="#">Offers And More</a>
+          <a href="#">House Hold Essentials</a>
+          <a href="#">Books</a>
+          <a href="#">Kitchen Essesntials</a>
+        </div>
+      </div>
+      <div class="mobile-header-div">
+        <a href="#"><img src="pic/amazon.png" alt="logo" class="logo" /><span>.in</span></a>
+      </div>
+    </div>
+    <div>
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+    </div>
+  </nav>
+  <!-- mobile search  -->
+  <section>
+    <div class="searchBox dflex mobile-search" id="dflex">
+      <div class="box">
+        <div class="dflex">
+          <!-- <button type="submit" class="all">
+            All <i class="fa fa-sort-desc"></i>
+          </button> -->
+          <input type="text" />
+          <button type="submit" class="search">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- slider mobile-->
+  <section >
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="https://m.media-amazon.com/images/I/61UrRx+3LLL._SX3000_.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://m.media-amazon.com/images/I/71cp9PVuTfL._SX3000_.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="https://m.media-amazon.com/images/I/717dZw+l-jL._SX3000_.jpg" style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+  </section>
+  <!-- first section product cards -->
+  <section class="main desktop">
+    <div class="card-product-container">
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+
+        </div>
+        
+      </div>
+      <!-- 2 -->
+      <div class="card-product">
+        <h2>Top rated, premium quality | Amazon Brands & more
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_1_Low._SY116_CB670263840_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_2_Low._SY116_CB670263840_.jpg" alt="">
+            <p>House Hold</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_3_Low._SY116_CB670263840_.jpg" alt="">
+            <p>Pictures</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_4_Low._SY116_CB670263840_.jpg" alt="">
+            <p>Shlef</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="card-product">
+        <h2>Upgrade your home | Amazon Brands & more
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_11._SY116_CB606110532_.jpg" alt="">
+            <p>Tele Vision</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_6._SY116_CB606110532_.jpg" alt="">
+            <p>Refrigerator</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_4._SY116_CB606110532_.jpg" alt="">
+            <p>Sofa</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_2._SY116_CB606110532_.jpg" alt="">
+            <p>Spices</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main desktop">
+    <div class="card-product-container">
+      <div class="card-product">
+        <h2>Top rated, premium quality | Amazon Brands & more
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_1._SY116_CB606110532_.jpg" alt="">
+            <p>Home Products</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_5._SY116_CB606110532_.jpg" alt="">
+            <p>Furniture</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_3._SY116_CB606110532_.jpg" alt="">
+            <p>Daily Essesntials</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_8._SY116_CB606110532_.jpg" alt="">
+            <p>Fashion</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- slider product desktop  -->
+
+ 
+
+  <!-- image box slider -->
+  <section class="mobile">
+    <div class="container swiper">
+      <div class="slide-container">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide" >
+            <div class="image-box">
+              <img src="https://m.media-amazon.com/images/I/71Fi1l0WcEL._SR270,360_.jpg" alt="" />
+            </div>
+            <div class="profile-details">
+              <img src="https://m.media-amazon.com/images/I/41fdqbqURLL._SR270,360_.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <img src="https://m.media-amazon.com/images/I/41bvoeSdgLL._SR270,360_.jpg" alt="" />
+            </div>
+            <div class="profile-details" >
+              <img src="https://m.media-amazon.com/images/I/31QNdHyB1SL._SR270,360_.jpg" alt="" />
+            </div>
+          </div>
+          <div class="card swiper-slide" >
+            <div class="image-box">
+              <img src="https://m.media-amazon.com/images/I/41fdqbqURLL._SR270,360_.jpg" alt="" />
+            </div>
+        </div>
+        <div class="card swiper-slide" >
+          <div class="image-box">
+            <img src="https://m.media-amazon.com/images/I/41bvoeSdgLL._SR270,360_.jpg" alt="" />
+          </div>
+      </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section >
+  
+  <section class="mobile" style="height: 420px;">
+    <section class="main">
+      <div class="card-product-container">
+        <div class="card-product">
+          <h2>Top rated, premium quality | Amazon Brands & more
+          </h2>
+          <div class="card-product-nested-card">
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_1._SY116_CB606110532_.jpg" alt="">
+              <p>Home Products</p>
+            </div>  
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_5._SY116_CB606110532_.jpg" alt="">
+              <p>Furniture</p>
+            </div>  
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_3._SY116_CB606110532_.jpg" alt="">
+              <p>Daily Essesntials</p>
+            </div>  
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_8._SY116_CB606110532_.jpg" alt="">
+              <p>Fashion</p>
+            </div>  
+            <button class="card-product-btn">See More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="mobile main" style="height: 420px;">
+      <div class="card-product-container">
+        <div class="card-product">
+          <h2>Top rated, premium quality | Amazon Brands & more
+          </h2>
+          <div class="card-product-nested-card">
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_1._SY116_CB606110532_.jpg" alt="">
+              <p>Home Products</p>
+            </div>  
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_5._SY116_CB606110532_.jpg" alt="">
+              <p>Furniture</p>
+            </div>  
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_3._SY116_CB606110532_.jpg" alt="">
+              <p>Daily Essesntials</p>
+            </div>  
+            <div class="card-nested">
+              <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_8._SY116_CB606110532_.jpg" alt="">
+              <p>Fashion</p>
+            </div>  
+            <button class="card-product-btn">See More</button>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+  <section class="mobile" style="height: 420px;">
+      <section class="main">
+        <div class="card-product-container">
+          <div class="card-product">
+            <h2>Top rated, premium quality | Amazon Brands & more
+            </h2>
+            <div class="card-product-nested-card">
+              <div class="card-nested">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_1._SY116_CB606110532_.jpg" alt="">
+                <p>Home Products</p>
+              </div>  
+              <div class="card-nested">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_5._SY116_CB606110532_.jpg" alt="">
+                <p>Furniture</p>
+              </div>  
+              <div class="card-nested">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_3._SY116_CB606110532_.jpg" alt="">
+                <p>Daily Essesntials</p>
+              </div>  
+              <div class="card-nested">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_8._SY116_CB606110532_.jpg" alt="">
+                <p>Fashion</p>
+              </div>  
+              <button class="card-product-btn">See More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  <!-- </section> -->
+  <section class="main product_overflow_slider_padding" style="background-color: white;">
+    <div>
+      <h2 style="margin-left: 15px;">Top Sellers in Books for you
+      </h2>
+    </div>
+    <div class="product_overflow_slider">
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/61Rlhrgk5iL._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/81OwcfWEX4L._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/91d1fi8s09L._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/61Rlhrgk5iL._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/91d1fi8s09L._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/61Rlhrgk5iL._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/616DpXT9xEL._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/61Rlhrgk5iL._AC_SY200_.jpg" alt="">
+      </div>
+      <div class="product_overflow_slider_nested">
+        <img src="https://m.media-amazon.com/images/I/616DpXT9xEL._AC_SY200_.jpg" alt="">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="main desktop">
+    <div class="card-product-container">
+      <div class="card-product">
+        <h2>Top rated, premium quality | Amazon Brands & more
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_1._SY116_CB606110532_.jpg" alt="">
+            <p>Home Products</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_5._SY116_CB606110532_.jpg" alt="">
+            <p>Furniture</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_3._SY116_CB606110532_.jpg" alt="">
+            <p>Daily Essesntials</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_8._SY116_CB606110532_.jpg" alt="">
+            <p>Fashion</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+
+        </div>
+        
+      </div>
+      <!-- 2 -->
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+
+        </div>
+        
+      </div>
+      <!-- 3 -->
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+
+        </div>
+        
+      </div>
+      <!-- 4 -->
+      <div class="card-product">
+        <h2>Shop & Pay | Earn rewards daily
+        </h2>
+        <div class="card-product-nested-card">
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_ScratchCard._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_CollectedOffers._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonPay/Rewards/GWBTFPercolateCards/PC_Quard_Card_186X116_WinMore._SY116_CB627364845_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <div class="card-nested">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/APay_Rewards/Rewards0.5x._SY116_CB633810016_.jpg" alt="">
+            <p>Claim Your Scratch Card</p>
+          </div>  
+          <button class="card-product-btn">See More</button>
+
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+<footer>
+  <div class="footer-content-wrapper">
+      <div class="footer-col large-25 small-50 tiny-100 ta-l flt" >
+        <h3>Get to Know Us
+        </h3>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+        <a href="#">About Amazon</a>
+      </div
+      ><div class="footer-col large-25 small-50 tiny-100 ta-l flt">
+        <h3>Make Money with Us
+        </h3>
+        <a href="#">Sell products on Amazon</a>
+        <a href="#">Sell on Amazon Business</a>
+        <a href="#">Sell apps on Amazon</a>
+
+      </div
+      ><div class="footer-col large-25 small-50 tiny-100 ta-l flt">
+        <h3>Amazon Payment Products
+        </h3>
+        <a href="#">Amazon Business Card</a>
+        <a href="#">Shop with Points</a>
+        <a href="#">Reload Your Balance</a>
+      </div
+      ><div class="footer-col large-25 small-50 tiny-100 ta-l flt">
+        <h3>Let Us Help You        </h3>
+        <a href="#">Amazon and COVID-19</a>
+        <a href="#">Your Account</a>
+        <a href="#">Your Orders</a>
+      </div>
+  </div>
+</footer>
+</body>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/script.js"></script>
+</html>
